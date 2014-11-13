@@ -3,6 +3,40 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Nuevo vehículo</title>
+  <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+ <script src="jquery/jquery.js" type="text/javascript"></script>
+ <script type="text/javascript">
+$().ready(function(){
+    /*document.getElementById("matricula").value="";*/
+    $("#matricula").val("Teclee una matrícula");
+    
+    $("#matricula").click(function(){
+        alert("Hola");
+        
+    });
+    $("#matricula").blur(function(){
+        
+        
+        
+    });
+    $("#numeroCaballos").click(function(){
+        $("#nroCaballosError").remove();
+      });
+    $("#numeroCaballos").blur(function(){
+        var expReg=/^[0-9]/;
+        
+        if(expReg.test($("#numeroCaballos").val())==false){
+            $("#numeroCaballos").after("<label id ='nroCaballosError' class='error'>Sólo números</label>");
+        }
+        
+    });
+    
+    
+    
+    
+    
+});
+</script>
 </head>
 <body>
 <h1>Incluir nuevo vehículo</h1>

@@ -1,0 +1,99 @@
+@CHARSET "ISO-8859-1";
+/* RESETEAMOS LAS ETIQUETAS *//* RESETEAMOS LAS ETIQUETAS */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video
+{
+    border:0;
+    font-size:100%;
+    vertical-align:baseline;
+    margin:0;
+    padding:0
+}
+.agrupado{
+	
+	padding:5px;
+	background-color:#F3F8FC;
+    border:1px solid #666;
+	 
+	  margin:10px;
+	-moz-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    -webkit-border-radius:20px;
+	
+}
+input{
+	margin-left:10px;
+	-moz-border-radius: 5px;
+    -khtml-border-radius: 5x;
+    -webkit-border-radius:5px;
+	
+}
+
+
+
+
+  ul{ list-style:none;
+  }
+  li{
+    display:inline;
+    margin-left: 15px;
+    border-bottom: 2px dotted #0055F9;
+    padding:1px;
+  }
+ input{
+    color:green;
+    text-decoration: none;
+    text-transform: uppercase;
+ }
+ .botones{
+       background-color:#0055F9;
+       color: white;
+       font-weight: normal;
+       font-size:1em;
+      font-family:Tahoma;
+      padding: 3px;
+      border:1px white dotted;
+      border-left:#0055AA 1px dotted;
+      border-bottom:#0055AA 1px dotted;
+      border-radius:6px;
+ 
+ }
+  body{
+      width:980px;
+      border: 2px dotted #0055F9;
+      margin: 0 auto;
+      background-color: #97CFF9;
+      text-align:left;
+      font-size:11px;
+      font-family: Tahoma, Georgia, Arial;
+      padding: 10px;
+   }
+   h1{font-size:14px;
+        font-weight: bold;}
+   a{
+     font-family: Tahoma;
+     font-size:11px;
+   }
+  a:link{
+  text-decoration: none;
+  }
+   a:hover{
+       font-size:12px;
+  }
+  a:visited{
+   color:red;
+    }
+    a:active{
+       color:green;
+    }
+  td, th{
+      border: 2px dotted blue;
+      padding:5px;
+      margin-left:20px;
+      
+    }
+    .error{
+        margin-left:10px;
+       font-family: Tahoma, Sans;
+      font-size:60%;
+      color:red;
+    }
