@@ -22,9 +22,9 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 }
 input{
 	margin-left:10px;
-	-moz-border-radius: 5px;
-    -khtml-border-radius: 5x;
-    -webkit-border-radius:5px;
+	-moz-border-radius: 5px; /*este es para el navegador Mozilla*/
+    -khtml-border-radius: 5x; /*este es para el navegador chrome*/
+    -webkit-border-radius:5px; /*este es para el navegador Internet explorer*/
 	
 }
 
@@ -85,15 +85,23 @@ input{
     a:active{
        color:green;
     }
-  td, th{
-      border: 2px dotted blue;
-      padding:5px;
-      margin-left:20px;
-      
-    }
+  
+    
     .error{
         margin-left:10px;
        font-family: Tahoma, Sans;
       font-size:60%;
       color:red;
     }
+    
+    
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+th {
+    text-align: left;
